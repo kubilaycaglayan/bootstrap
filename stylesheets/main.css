@@ -1,3 +1,5 @@
+@import "mediaqueries.css";
+
 * {
   /* border: 0.2px yellow solid; */
 }
@@ -7,14 +9,27 @@ header {
   background-color: #f72210;
 }
 
-.newsweeklogo svg {
+.navphaseone {
+  min-width: 350px;
+}
+
+.navphaseone .newsweeklogo svg {
   width: 132px;
   color: white;
 }
 
+.navphasethree .newsweeklogo svg {
+  width: 395px;
+  color: white;
+}
+.whiteribbon {
+  height: 56px;
+  border-bottom: 2px gray solid;
+}
+
 .subscribe svg {
   width: 8px;
-  margin-left: 10px
+  margin-left: 10px;
 }
 
 header,
@@ -28,7 +43,8 @@ img {
 }
 
 .weather,
-.location {
+.location,
+.date {
   font: 15px "Roboto Condensed", sans-serif;
   font-weight: bold;
   color: white;
@@ -36,6 +52,7 @@ img {
 
 .location img {
   width: 6px;
+  margin-left: 5px;
 }
 
 .signin,
@@ -54,4 +71,10 @@ img {
 .fa-bars {
   font-size: 25px;
   color: #fb9a94;
+}
+
+.breadcrumb-item  {
+ 
+  content: "";
+  border-right: 1px black solid;
 }

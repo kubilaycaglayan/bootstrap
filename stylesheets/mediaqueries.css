@@ -1,57 +1,49 @@
 * {
-  /* border: 0.2px yellow solid; */
+  border: 0.2px yellow solid;
 }
 
-header {
-  height: 50px;
-  background-color: #f72210;
+@media (max-width: 417px) {
+  .navphaseone .weather,
+  .navphaseone .location {
+    display: none;
+    background-color: yellow;
+  }
 }
 
-.newsweeklogo svg {
-  width: 132px;
-  color: white;
-}
-
-.subscribe svg {
-  width: 8px;
-  margin-left: 10px
-}
-
-header,
-.navphaseone > div {
-  display: flex;
-  align-items: center;
-}
-
-img {
-  width: 24px;
-}
-
-.weather,
-.location {
-  font: 15px "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  color: white;
-}
-
-.location img {
-  width: 6px;
-}
-
-.signin,
-.subscribe {
-  font: 16px "Roboto Condensed", sans-serif;
+@media (max-width: 510px) {
+  /* .navphaseone .signin,
+  .navphaseone .subscribe {
+    width: 50%;
+  } */
+  .navphaseone .signin,
+  .navphaseone .subscribe {
+  font: 8px "Roboto Condensed", sans-serif;
   font-weight: bolder;
 }
-.signin {
-  color: white;
 }
 
-.subscribe {
-  color: #f72210;;
+@media (max-width: 640px) {
+  .navphaseone .location {
+    display: none;
+  }
 }
 
-.fa-bars {
-  font-size: 25px;
-  color: #fb9a94;
+@media (max-width: 992px) {
+  .navphasethree {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  body header {
+    height: 95px;
+  }
+  .navphaseone .newsweeklogo,
+  .navphaseone .hamburger,
+  .navphaseone {
+    display: none;
+  }
+  .navphaseone .subscribe {
+    margin-right: 10px;
+  }
 }
