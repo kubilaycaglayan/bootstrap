@@ -1,4 +1,5 @@
 @import "mediaqueries.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
 
 * {
   /* border: 0.2px yellow solid; */
@@ -24,7 +25,7 @@ header {
 }
 .whiteribbon {
   height: 56px;
-  border-bottom: 2px gray solid;
+  border-bottom: 2px #f4f5f6 solid;
 }
 
 .subscribe svg {
@@ -73,8 +74,36 @@ img {
   color: #fb9a94;
 }
 
-.breadcrumb-item  {
- 
-  content: "";
-  border-right: 1px black solid;
+.whiteribbon input {
+  width: 74px;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+.whiteribbon a {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.whiteribbon a:hover {
+  color: #f72210;
+}
+
+.whiteribbon nav ul .lisep {
+  border: 1px #e6e6e6 solid;
+}
+
+.redcurve div:nth-child(1){
+  height: 16px;
+  background-color: #f72210;
+}
+
+.redcurve .whitecurve {
+  background: linear-gradient(to top right, white, white 50%, #f72210 51%, #f72210);
+  width: 12px;
 }
