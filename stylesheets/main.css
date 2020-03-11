@@ -5,6 +5,43 @@
   /* border: 0.2px yellow solid; */
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  text-decoration: underline #f72210;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(247, 34, 16);
+}
+
+ul, 
+li {
+  list-style: none;
+  padding: 0;
+}
+
 header {
   height: 50px;
   background-color: #f72210;
@@ -90,7 +127,7 @@ img {
   color: black;
 }
 
-.whiteribbon a:hover {
+a:hover {
   color: #f72210;
 }
 
@@ -106,4 +143,97 @@ img {
 .redcurve .whitecurve {
   background: linear-gradient(to top right, white, white 50%, #f72210 51%, #f72210);
   width: 12px;
+}
+
+main {
+  background-color: #f4f5f7;
+}
+
+body {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block-title {
+  font: bold 16px/16px 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: #a0a0a0;
+}
+
+.wrap .category {
+  display: block;
+  font: bold 17px/16px 'Roboto Condensed', sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.wrap {
+  position: relative;
+}
+
+.wrap .category a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.wrap .image img {
+  width: 100%;
+}
+
+picture {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+article .my-1 {
+  font-size: 22px;
+  line-height: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.media-body h5 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.media picture,
+.media picture img {
+  width: 95px;
+  height: 95px;
+}
+
+.media picture {
+  margin-right: 15px;
+}
+
+.graylightborder {
+  border-top: 1px #dddddd solid;
+
+}
+
+article {
+  background-color: white;
+}
+
+.hoverred {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.hoverred:hover {
+  text-decoration: none;
 }
