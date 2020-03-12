@@ -33,7 +33,7 @@ h6 a:hover {
   text-decoration-color: rgb(247, 34, 16);
 }
 
-ul, 
+ul,
 li {
   list-style: none;
   padding: 0;
@@ -57,9 +57,16 @@ header {
   width: 395px;
   color: white;
 }
+
 .whiteribbon {
   height: 56px;
   border-bottom: 2px #f4f5f6 solid;
+}
+
+.whiteribbon ul li a:hover {
+  text-decoration: none;
+  color: #f72210;
+  cursor: pointer;
 }
 
 .subscribe svg {
@@ -95,12 +102,13 @@ header,
   font: 16px "Roboto Condensed", sans-serif;
   font-weight: bolder;
 }
+
 .signin {
   color: white;
 }
 
 .subscribe {
-  color: #f72210;;
+  color: #f72210;
 }
 
 .fa-bars {
@@ -129,7 +137,7 @@ footer .lisep {
   border: 1px #e6e6e6 solid;
 }
 
-.redcurve div:nth-child(1){
+.redcurve div:nth-child(1) {
   height: 16px;
   background-color: #f72210;
 }
@@ -140,8 +148,6 @@ footer .lisep {
 }
 
 main {
-  background-color: #f4f5f7;
-  background-color: sandybrown;
   min-width: 325px;
 }
 
@@ -215,7 +221,7 @@ article .my-1 {
 }
 
 .graylightborder {
-  border-top: 1px #dddddd solid;
+  border-top: 1px #ddd solid;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -321,7 +327,7 @@ article {
   color: #3581f4;
 }
 
-.c-2 article {
+.c article {
   padding-bottom: 20px;
 }
 
@@ -478,9 +484,9 @@ article {
 }
 
 .current {
- position: absolute;
- top: 13px;
- left: 80px;
+  position: absolute;
+  top: 13px;
+  left: 80px;
 }
 
 .sbs .textclassic {
@@ -518,7 +524,6 @@ article {
 footer .newsweeklogo svg {
   color: #f72210;
   width: 236px;
-
 }
 
 footer i {
@@ -528,4 +533,13 @@ footer i {
 
 footer i:hover {
   cursor: pointer;
+}
+
+.second-phase .row .first-column,
+.second-phase .row .third-column {
+  width: 30%;
+}
+
+.second-phase .row .second-column {
+  width: 40%;
 }
