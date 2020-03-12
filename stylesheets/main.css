@@ -124,7 +124,8 @@ header,
   color: black;
 }
 
-.whiteribbon nav ul .lisep {
+.whiteribbon nav ul .lisep,
+footer .lisep {
   border: 1px #e6e6e6 solid;
 }
 
@@ -182,11 +183,6 @@ body {
 
 .wrap .image img {
   width: 100%;
-}
-
-.image {
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 picture {
@@ -456,4 +452,80 @@ article {
 
 .im article h1 {
   font-size: 16px;
+}
+
+.ep .row article .summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+}
+
+.textred {
+  font-family: 'Roboto Condensed', serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #f72210;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.fn {
+  position: relative;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.current {
+ position: absolute;
+ top: 13px;
+ left: 80px;
+}
+
+.sbs .textclassic {
+  font-size: 20px;
+}
+
+.sbs .badge,
+.nwl .badge {
+  background-color: #f72210;
+  color: white;
+  font-size: 13px;
+}
+
+.sbs .badge:hover,
+.nwl .badge:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.telephoneimage {
+  background: rgba(0, 0, 0, 0) url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center center / cover;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-size: cover;
+  background-origin: padding-box;
+  background-clip: border-box;
+  width: 100%;
+  padding-top: 160px;
+}
+
+footer .newsweeklogo svg {
+  color: #f72210;
+  width: 236px;
+
+}
+
+footer i {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+footer i:hover {
+  cursor: pointer;
 }
