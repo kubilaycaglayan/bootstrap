@@ -356,3 +356,36 @@ article {
 .lightborder {
   border: 1px solid #e6e6e6;
 }
+
+.ct .wrap .category {
+  color: #27273d;
+  background-color: #c2d4d7;
+  padding: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+.ct .wrap .category a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.ct h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #272727;
+  padding-top: 1rem;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.ct h1 a:hover {
+  text-decoration: none;
+}
+
+.ct .summary {
+  color: #939393;
+  font-size: 15px;
+}
