@@ -65,3 +65,8 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](LICENSE.md) licensed
+
+Additional Screenshot Of Sections:
+
+<img width="981" alt="22" src="https://user-images.githubusercontent.com/60448833/76624861-22d9bd80-6547-11ea-9f7f-cf7fc896db57.png">
+
