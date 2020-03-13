@@ -549,8 +549,28 @@ footer .newsweeklogo svg {
   width: 40%;
 }
 
+.second-phase .im .affect article {
+  height: 90%;
+}
+
+.second-phase .im .affect .wrap {
+  height: 77%;
+}
+
+.affect .wrap picture,
+.affect .wrap .image {
+  height: 100%;
+}
+
+.affect .wrap img {
+  width: 150%;
+  position: relative;
+  padding-top: 20px;
+  margin-left: -60px;
+}
+
 .navlogos {
-  color: #666666;
+  color: #666;
 }
 
 .navlogos i:hover {
@@ -566,7 +586,7 @@ footer i {
 footer nav ul li a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  color: #666666;
+  color: #666;
 }
 
 footer nav ul li a:hover {
@@ -576,4 +596,32 @@ footer nav ul li a:hover {
 
 footer .aboutus {
   line-height: 22px;
+}
+
+.w-90 {
+  width: 50%;
+}
+
+.bg-special {
+  background-color: #f4f5f6;
+}
+
+.fs .image {
+  position: relative;
+}
+
+.fscorner {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
 }

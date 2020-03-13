@@ -58,6 +58,14 @@
     width: 100%;
     max-width: 300px;
   }
+
+  .nwl .cheight {
+    height: 291px;
+  }
+
+  main .nwl .telephoneimage {
+    padding-top: 291px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -68,5 +76,9 @@
 
   .ad-2 {
     width: 330px;
+  }
+
+  .cheight {
+    height: 160px;
   }
 }
