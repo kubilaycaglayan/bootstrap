@@ -53,6 +53,11 @@
   .second-phase .ad-2 {
     width: 100%;
   }
+
+  .second-phase .ad-2 .card {
+    width: 100%;
+    max-width: 300px;
+  }
 }
 
 @media (min-width: 769px) {

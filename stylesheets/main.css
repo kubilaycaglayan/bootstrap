@@ -540,15 +540,6 @@ footer .newsweeklogo svg {
   width: 236px;
 }
 
-footer i {
-  font-size: 25px;
-  margin-left: 5px;
-}
-
-footer i:hover {
-  cursor: pointer;
-}
-
 .second-phase .row .first-column,
 .second-phase .row .third-column {
   width: 30%;
@@ -556,4 +547,33 @@ footer i:hover {
 
 .second-phase .row .second-column {
   width: 40%;
+}
+
+.navlogos {
+  color: #666666;
+}
+
+.navlogos i:hover {
+  cursor: pointer;
+  color: #1c87fb;
+}
+
+footer i {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+footer nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+footer nav ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+footer .aboutus {
+  line-height: 22px;
 }
