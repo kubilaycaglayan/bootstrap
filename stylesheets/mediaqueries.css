@@ -1,7 +1,3 @@
-* {
-  /* border: 0.2px yellow solid; */
-}
-
 @media (max-width: 417px) {
   .navphaseone .weather,
   .navphaseone .location {
@@ -25,10 +21,6 @@
   .navphaseone .location {
     display: none;
   }
-}
-
-@media (max-width: 720px) {
-
 }
 
 @media (max-width: 960px) {

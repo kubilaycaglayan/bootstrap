@@ -1,8 +1,24 @@
 @import "mediaqueries.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
 
-* {
-  /* border: 0.2px yellow solid; */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+footer nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+.whiteribbon a {
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+  color: black;
 }
 
 h1,
@@ -13,11 +29,6 @@ h5,
 h6 {
   font-family: 'Roboto Condensed', sans-serif;
   color: black;
-}
-
-a {
-  color: black;
-  text-decoration: none;
 }
 
 h1 a:hover,
@@ -44,8 +55,18 @@ header {
   background-color: #f72210;
 }
 
+.subscribe svg {
+  width: 8px;
+  margin-left: 10px;
+}
+
 .navphaseone {
   min-width: 350px;
+}
+
+footer .newsweeklogo svg {
+  color: #f72210;
+  width: 236px;
 }
 
 .navphaseone .newsweeklogo svg {
@@ -63,19 +84,50 @@ header {
   border-bottom: 2px #f4f5f6 solid;
 }
 
+footer .lisep,
+.whiteribbon nav ul .lisep {
+  border: 1px #e6e6e6 solid;
+}
+
+footer nav ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.wrap .category a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ct h1 a:hover {
+  text-decoration: none;
+}
+
 .whiteribbon ul li a:hover {
   text-decoration: none;
   color: #f72210;
   cursor: pointer;
 }
 
-.whiteribbon ul img {
-  width: 20px;
+.weather img {
+  width: 24px;
 }
 
-.subscribe svg {
-  width: 8px;
-  margin-left: 10px;
+.location img {
+  width: 6px;
+  margin-left: 5px;
+}
+
+.byheadshot img {
+  position: absolute;
+  right: 5px;
+  top: -15px;
+  width: 63px;
+  height: 63px;
+}
+
+.whiteribbon ul img {
+  width: 20px;
 }
 
 header,
@@ -84,21 +136,12 @@ header,
   align-items: center;
 }
 
-.weather img {
-  width: 24px;
-}
-
 .weather,
 .location,
 .date {
   font: 15px "Roboto Condensed", sans-serif;
   font-weight: bold;
   color: white;
-}
-
-.location img {
-  width: 6px;
-  margin-left: 5px;
 }
 
 .signin,
@@ -132,20 +175,6 @@ header,
 
 .whiteribbon input:focus {
   width: 150px;
-}
-
-.whiteribbon a {
-  font-size: 19px;
-  line-height: 24px;
-  font-weight: 700;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-decoration: none;
-  color: black;
-}
-
-.whiteribbon nav ul .lisep,
-footer .lisep {
-  border: 1px #e6e6e6 solid;
 }
 
 .redcurve .row {
@@ -196,19 +225,25 @@ body {
   position: relative;
 }
 
-.wrap .category a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.wrap .image img {
-  width: 100%;
+footer i {
+  font-size: 25px;
+  margin-left: 5px;
 }
 
 picture {
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+.cardvisit picture,
+.cardvisit picture img {
+  width: 95px;
+  height: 95px;
+}
+
+.wrap .image img {
+  width: 100%;
 }
 
 article .my-1 {
@@ -221,12 +256,6 @@ article .my-1 {
 .cardvisit-body h5 {
   font-size: 17px;
   font-weight: bold;
-}
-
-.cardvisit picture,
-.cardvisit picture img {
-  width: 95px;
-  height: 95px;
 }
 
 .cardvisit picture {
@@ -316,14 +345,6 @@ article {
   margin-bottom: 1rem;
 }
 
-.byheadshot img {
-  position: absolute;
-  right: 5px;
-  top: -15px;
-  width: 63px;
-  height: 63px;
-}
-
 .versus {
   width: 40px;
   height: 40px;
@@ -336,6 +357,11 @@ article {
   text-transform: uppercase;
 }
 
+.ct .summary {
+  color: #939393;
+  font-size: 15px;
+}
+
 .ad-1 .wrap .category,
 .ad-2 .wrap .category {
   color: #3581f4;
@@ -343,6 +369,15 @@ article {
 
 .c article {
   padding-bottom: 20px;
+}
+
+.ct h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #272727;
+  padding-top: 1rem;
+  font-size: 20px;
+  line-height: 22px;
 }
 
 .ad-1 article,
@@ -381,24 +416,6 @@ article {
 .ct .wrap .category a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-}
-
-.ct h1 {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 400;
-  color: #272727;
-  padding-top: 1rem;
-  font-size: 20px;
-  line-height: 22px;
-}
-
-.ct h1 a:hover {
-  text-decoration: none;
-}
-
-.ct .summary {
-  color: #939393;
-  font-size: 15px;
 }
 
 .ln .media-body .hoverred {
@@ -454,6 +471,13 @@ article {
   background-color: white;
 }
 
+.sbs .badge,
+.nwl .badge {
+  background-color: #f72210;
+  color: white;
+  font-size: 13px;
+}
+
 .im article {
   margin-bottom: 25px;
 }
@@ -507,13 +531,6 @@ article {
   font-size: 20px;
 }
 
-.sbs .badge,
-.nwl .badge {
-  background-color: #f72210;
-  color: white;
-  font-size: 13px;
-}
-
 .sbs .badge:hover,
 .nwl .badge:hover {
   opacity: 0.8;
@@ -535,11 +552,6 @@ article {
   padding-top: 160px;
 }
 
-footer .newsweeklogo svg {
-  color: #f72210;
-  width: 236px;
-}
-
 .second-phase .row .first-column,
 .second-phase .row .third-column {
   width: 30%;
@@ -551,6 +563,10 @@ footer .newsweeklogo svg {
 
 .second-phase .im .affect article {
   height: 90%;
+}
+
+.fs .image {
+  position: relative;
 }
 
 .second-phase .im .affect .wrap {
@@ -578,22 +594,6 @@ footer .newsweeklogo svg {
   color: #1c87fb;
 }
 
-footer i {
-  font-size: 25px;
-  margin-left: 5px;
-}
-
-footer nav ul li a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  color: #666;
-}
-
-footer nav ul li a:hover {
-  color: #000;
-  text-decoration: none;
-}
-
 footer .aboutus {
   line-height: 22px;
 }
@@ -604,10 +604,6 @@ footer .aboutus {
 
 .bg-special {
   background-color: #f4f5f6;
-}
-
-.fs .image {
-  position: relative;
 }
 
 .fscorner {
