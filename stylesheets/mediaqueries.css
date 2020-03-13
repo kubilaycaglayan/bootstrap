@@ -1,0 +1,87 @@
+@media (max-width: 417px) {
+  .navphaseone .weather,
+  .navphaseone .location {
+    display: none;
+  }
+}
+
+@media (max-width: 510px) {
+  .navphaseone .signin,
+  .navphaseone .subscribe {
+    font: 8px "Roboto Condensed", sans-serif;
+    font-weight: bolder;
+  }
+
+  .navphaseone .subscribe svg {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .navphaseone .location {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    margin-top: 50px;
+  }
+
+  .navphasethree {
+    display: none;
+  }
+
+  body header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+  }
+}
+
+@media (min-width: 992px) {
+  body header {
+    height: 95px;
+  }
+
+  .navphaseone .subscribe {
+    margin-right: 10px;
+  }
+
+  .nwl .telephoneimage {
+    padding-top: 313px;
+  }
+
+  .second-phase .ad-2 {
+    width: 100%;
+  }
+
+  .second-phase .ad-2 .card {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .nwl .cheight {
+    height: 291px;
+  }
+
+  main .nwl .telephoneimage {
+    padding-top: 291px;
+  }
+}
+
+@media (min-width: 769px) {
+  .d {
+    position: sticky;
+    top: -300px;
+  }
+
+  .ad-2 {
+    width: 330px;
+  }
+
+  .cheight {
+    height: 160px;
+  }
+}
