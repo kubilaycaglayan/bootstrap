@@ -4,7 +4,7 @@
 
 > Creating https://www.newsweek.com/ website by using Bootstrap as much as possible.
 
-
+![DONE](https://user-images.githubusercontent.com/60448833/76623751-16ecfc00-6545-11ea-979a-20ba91fed91a.gif)
 
 Additional description about the project and its features.
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/kblycaglayan/Using-Bootstrap/2d269dc8053a1b991c826b0ef7f633cf3c2f7aa7/index.html)
 
 ### Prerequisites
 
