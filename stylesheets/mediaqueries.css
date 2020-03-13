@@ -23,9 +23,20 @@
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 991px) {
+  main {
+    margin-top: 50px;
+  }
+
   .navphasethree {
     display: none;
+  }
+
+  body header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
   }
 }
 
